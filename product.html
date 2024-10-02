@@ -1,0 +1,378 @@
+<html>
+
+<head>
+    <title>Document</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+        ul {
+            list-style-type: none;
+           background-color: palevioletred;
+           height: 70px;
+           width: 100%;
+           display: block;
+           }
+         li a
+          {
+            text-decoration: none;
+            padding: 14px 16px;
+            text-align: center;
+            font-size: large;
+            color:black;
+         }
+          li {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 5px;
+        
+             }
+             
+       div {
+            display: inline-block;
+            box-sizing: content-box;
+            margin: 1px;
+            border-radius: 5px;
+            padding: 16PX;
+            border-radius: 2px;
+        }
+        footer 
+        {
+            background-color: palevioletred;
+            color:black;
+            padding: 20px 0;
+            text-align: center;
+        }
+         .footer-container 
+        {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .footer-section
+         {
+            flex: 1;
+            padding: 15px;
+            min-width: 200px;
+        }
+        .footer-section h3
+         {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        .footer-section p,
+        .footer-section a {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color:black;
+        }
+        .footer-section a img 
+        {
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+            color: black;
+        }
+         .footer-bottom 
+          {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+        .container
+        {
+         height: 300px;
+         width: 250px;
+         margin-top: 10px;
+         display:inline-block;
+         margin-right: 19px;
+         border: 2px ;
+         padding-left: 15px;
+         box-shadow: 0 0 20px lightsalmon;
+        
+         }
+         .container:hover{
+           transition: 7s;
+         }
+         button {
+            border-radius: 50px;
+            background-color: antiquewhite;
+            width:100px;
+            height: 34px;
+        }
+         button:hover{
+            background-color: aqua;
+         }
+         .shop{
+            margin-right: 40%;
+         }
+         @media only screen and (max-width: 768px) {
+    ul {
+        display: inline-block;
+        height: auto;
+        text-align: center;
+        padding: 0;
+        width:100% ;
+    }
+    
+    li {
+        display: inline-block;
+        margin: 0px ;
+    }
+
+    li a {
+        display: inline-block;
+        padding: 0px;
+        font-size: smaller;
+        
+    }
+
+    .shop {
+        margin-right: 0px;
+    }
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap; 
+    margin-left: 15px;
+}
+    
+ </style>
+</head>
+<body>
+    
+    <ul>
+
+        <li class="shop"><img src="./images/shop.png" alt="" height="25px" width="25px">&nbsp;<b>JUICE SHOP</b></li>
+        
+        <li><a href="./index.html"><img src="./images/icons8-home-20.png" alt="" height="20px" width="20px">&nbsp;&nbsp;Home</a></li>
+        <li><a href="./login.html"><img src="./images/icons8-login-20.png" alt="" height="20px" width="20px">&nbsp;&nbsp;Login</a></li>
+        <li><a href="./product.html"><img src="./images/icons8-product-20.png" alt="" height="20px" width="20px">&nbsp;&nbsp;Product</a></li>
+        <li><a href=""><img src="./images/icons8-cart-20.png" alt="" height="20px" width="20px">&nbsp;&nbsp;My Cart</a></li>
+        </ul>
+    
+    <div class="flex">
+    <div class="container">
+        <img src="./images/orange.jpg" alt="" height="200px" width="250px">
+        <p><h3>Orange Juice</h3></p>
+        <h2>&#x20b9;149</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add cart</b></button>
+        <br>
+            <img  src="./images/star.png" alt="" height="25px" width="25px">
+            <img src="./images/star.png" alt="" height="25px" width="25px">
+            <img src="./images/star.png" alt="" height="25px" width="25px">
+            <img src="./images/half star.png" alt="" height="25px" width="25px">
+            <img  src="./images/empty star.jpg" alt="" height="25px" width="25px">
+        </div>
+    <div class="container">
+         <img src="./images/apple.jpg" alt="" height="200px" width="250px">
+        <p><h3>Apple Juice</h3></p>
+        <h2>&#x20b9;169</h2>
+        <button class="button"><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img  src="./images/empty star.jpg" alt="" height="25px" width="25px">
+    </div>
+    <div class="container" >
+        <img src="./images/Pineapple.jpg" alt="" height="200px" width="250px">
+        <p><h3>Pineapple Juice</h3></p>
+        <h2>&#x20b9;179</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+         <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img  src="./images/empty star.jpg" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/avacado.jpg" alt="" height="200px" width="250px">
+        <p><h3>Avacado Juice</h3></p>
+        <h2>&#x20b9;189</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img  src="./images/empty star.jpg" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/banana.jpg" alt="" height="200px" width="250px">
+        <p><h3>Banana Juice</h3></p>
+        <h2>&#x20b9;139</h2>
+        <button><span><img class="icon" src="/images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+       <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/lime.jpg" alt="" height="200px" width="250px">
+        <p><h3>Lime Juice</h3></p>
+        <h2>&#x20b9;99</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/half star.png" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/papaya.jpg" alt="" height="200px" width="250px">
+        <p><h3>Papaya Juice</h3></p>
+        <h2>&#x20b9;199</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/empty star.jpg" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/grape.jpg" alt="" height="200px" width="250px">
+        <p><h3>Grape Juice</h3></p>
+        <h2>&#x20b9;189</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/empty star.jpg" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/watermelon.jpg" alt="" height="200px" width="250px">
+        <p><h3>Watermelon Juice</h3></p>
+        <h2>&#x20b9;159</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/empty star.jpg" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/mango.jpg" alt="" height="200px" width="250px">
+        <p><h3>Mango Juice</h3></p>
+        <h2>&#x20b9;199</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/pomegranate.jpg" alt="" height="200px" width="250px">
+        <p><h3>Pomegranate Juice</h3></p>
+        <h2>&#x20b9;189</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/half star.png" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/kiwi.jpg" alt="" height="200px" width="250px">
+        <p><h3>Kiwi Juice</h3></p>
+        <h2>&#x20b9;169</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+         <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/empty star.jpg" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/peach.jpg" alt="" height="200px" width="250px">
+        <p><h3>Peach Juice</h3></p>
+        <h2>&#x20b9;159</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/half star.png" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/dragon.jpg" alt="" height="200px" width="250px">
+        <p><h3>Dragon Juice</h3></p>
+        <h2>&#x20b9;199</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+         <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/guava.jpg" alt="" height="200px" width="250px">
+        <p><h3>Guava Juice</h3></p>
+        <h2>&#x20b9;149</h2>
+        <button><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="images/empty star.jpg" alt="" height="25px" width="25px">
+    </div>
+    <div class="container">
+        <img src="./images/muskmelon.jpg" alt="" height="200px" width="250px">
+        <p><h3>Muskmelon Juice</h3></p>
+        <h2>&#x20b9;159</h2>
+        <button class="button"><span><img class="icon" src="./images/cart2.png" alt="" height="20px" width="20px"></span><b>Add Cart</b></button>
+        <br>
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+        <img src="./images/star.png" alt="" height="25px" width="25px">
+    </div>
+</div>
+    <br><br><br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Fresh juices made from natural ingredients. Visit us for a healthy and refreshing experience.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: drink@juiceshop.com</p>
+                <p>Phone: +91 5437891033</p>
+                <p>Address: 206 Juice St., Fresh City</p>
+            </div>
+            <div class="footer-section hours">
+                <h3>Opening Hours</h3>
+                <p>Mon - Fri: 8:00 AM - 8:00 PM</p>
+                <p>Sat - Sun: 9:00 AM - 6:00 PM</p>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="./images/icons8-facebook-50.png" alt="Facebook"></a>
+                <a href="#"><img src="./images/insta.png" alt="Instagram"></a>
+                <a href="#"><img src="./images/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2024 Juice Shop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
